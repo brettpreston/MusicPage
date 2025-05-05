@@ -57,6 +57,15 @@
 
 
 
+
+@font-face {
+    font-family: 'blade';
+    src: url('../fonts/Bladerounded-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* exo-2-regular - latin */
 @font-face {
   font-family: 'Exo 2';
@@ -196,9 +205,9 @@ header{
 	height: 90px;
 	z-index: 99;
 	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name3.png');
+	background: url('../img/name-blade.png');
 	background-repeat: no-repeat;
-	background-position: 13% 5%;
+	background-position: 15% 5%;
 	padding-left: 50px;
 	background-color: #0a0a1a;
 }
@@ -249,8 +258,8 @@ header nav li:first-child{
 }
 
 header nav li a{
-	color: #00dbfa;
-	font-family: 'Exo 2';
+	color: #97e3fd;
+	font-family: 'blade';
 	font-weight: 700;
 	font-style: bold;
 	font-size: 26px;
@@ -288,17 +297,21 @@ header .social li:first-child{
 
 
 .tagline{
-	font-family:  'Exo 2';
-	color: #00dbfa;
+	font-family:  'blade';
+	color: #97e3fd;
 	font-size: 20;
 	text-align: right;
 }
 
 .tagline2{
 	font-family:  'Exo 2';
-	color: #00dbfa;
-	font-size: 20;
+	font-weight: 500;
+	color: #97e3fd;
+	font-size: 22;
 	text-align: justify;
+	padding-right: 8%;
+	padding-left: 8%;
+	line-height: 1.4;
 }
 
 
@@ -382,7 +395,7 @@ a.app_store_btn{
 	border-radius: 1px;
 	margin: 10px 10px 10px 10px;
 
-	color: #00dbfa;
+	color: #97e3fd;
 	font-family: 'Exo 2';
 	font-weight: 400;
 	font-size: 20px;
@@ -770,7 +783,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#00dbfa);
+	background-image: linear-gradient(#10105E,#97e3fd);
 }
 
 
@@ -791,7 +804,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#00dbfa,#10105E);
+	background-image: linear-gradient(#10105E,#97e3fd,#10105E);
 }
 
 
@@ -818,8 +831,8 @@ a.app_link{
 
 .button-epk {
 	
-        border: 2px solid #00dbfa;
-        color: #00dbfa;
+        border: 2px solid #97e3fd;
+        color: #97e3fd;
         background-color: #1f0d30;
 		position: center;
         padding: 5px 20px;
@@ -835,7 +848,7 @@ a.app_link{
   }
 
   .button-epk2 {
-	color: #00dbfa;
+	color: #97e3fd;
 	position: center;
 	width: 100%;
 	display: block;
@@ -847,7 +860,7 @@ a.app_link{
 }
 
 .button-epk3 {
-	color: #00dbfa;
+	color: #97e3fd;
 	position: center;
 	width: 100%;
 	display: block;
@@ -881,7 +894,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote p{
-	color: #00dbfa;
+	color: #97e3fd;
 	opacity: 1;
 	font-size: 16px;
 	margin-bottom: -10px;
@@ -899,7 +912,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .name{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-family: 'Exo 2';
 	font-weight: 600;
 	font-size: 28px;
@@ -907,7 +920,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .author{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-family: 'Exo 2';
 	font-weight: 500;
 	font-size: 20px;
@@ -915,7 +928,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .job{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
@@ -935,7 +948,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote p{
-	color: #00dbfa;
+	color: #97e3fd;
 	opacity: 1;
 	font-size: 16px;
 	margin-bottom: -10px;
@@ -953,7 +966,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .name{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-family: 'Exo 2';
 	font-weight: 600;
 	font-size: 28px;
@@ -961,7 +974,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .author{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-family: 'Exo 2';
 	font-weight: 500;
 	font-size: 20px;
@@ -969,7 +982,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .job{
-	color: #00dbfa;
+	color: #97e3fd;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
@@ -1315,8 +1328,8 @@ footer .copyright a{
 }
 
 .button-menu{
-	border: 2px solid #00dbfa;
-	color: #00dbfa;
+	border: 2px solid #97e3fd;
+	color: #97e3fd;
 	background-color: #1f0d30;
 	position: center;
 	padding: 5px 10px;
@@ -1481,7 +1494,7 @@ footer .copyright a{
 .app_features2{
 	width: 100%;
 	padding: 40px 10px 20px 10px;
-	background-color: #00dbfa;
+	background-color: #97e3fd;
 }
 
 
