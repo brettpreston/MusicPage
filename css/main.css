@@ -185,12 +185,12 @@ header{
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 70px;
+	height: 90px;
 	z-index: 99;
 	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name.png');
+	background: url('../img/name3.png');
 	background-repeat: no-repeat;
-	background-position: 10% 50%;
+	background-position: 13% 5%;
 	padding-left: 50px;
 	background-color: #0a0a1a;
 }
@@ -241,7 +241,7 @@ header nav li:first-child{
 }
 
 header nav li a{
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 700;
 	font-style: bold;
@@ -281,14 +281,14 @@ header .social li:first-child{
 
 .tagline{
 	font-family:  'Exo 2';
-	color: #4189c3;
+	color: #00dbfa;
 	font-size: 20;
 	text-align: right;
 }
 
 .tagline2{
 	font-family:  'Exo 2';
-	color: #4189c3;
+	color: #00dbfa;
 	font-size: 20;
 	text-align: justify;
 }
@@ -374,7 +374,7 @@ a.app_store_btn{
 	border-radius: 1px;
 	margin: 10px 10px 10px 10px;
 
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 400;
 	font-size: 20px;
@@ -762,7 +762,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#4189c3);
+	background-image: linear-gradient(#10105E,#00dbfa);
 }
 
 
@@ -783,7 +783,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#4189c3,#10105E);
+	background-image: linear-gradient(#10105E,#00dbfa,#10105E);
 }
 
 
@@ -810,8 +810,8 @@ a.app_link{
 
 .button-epk {
 	
-        border: 2px solid #4189c3;
-        color: #4189c3;
+        border: 2px solid #00dbfa;
+        color: #00dbfa;
         background-color: #1f0d30;
 		position: center;
         padding: 5px 20px;
@@ -827,7 +827,7 @@ a.app_link{
   }
 
   .button-epk2 {
-	color: #4189c3;
+	color: #00dbfa;
 	position: center;
 	width: 100%;
 	display: block;
@@ -839,7 +839,7 @@ a.app_link{
 }
 
 .button-epk3 {
-	color: #4189c3;
+	color: #00dbfa;
 	position: center;
 	width: 100%;
 	display: block;
@@ -873,7 +873,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote p{
-	color: #4189c3;
+	color: #00dbfa;
 	opacity: 1;
 	font-size: 16px;
 	margin-bottom: -10px;
@@ -891,7 +891,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .name{
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 600;
 	font-size: 28px;
@@ -899,7 +899,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .author{
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 500;
 	font-size: 20px;
@@ -907,7 +907,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .job{
-	color: #4189c3;
+	color: #00dbfa;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
@@ -927,7 +927,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote p{
-	color: #4189c3;
+	color: #00dbfa;
 	opacity: 1;
 	font-size: 16px;
 	margin-bottom: -10px;
@@ -945,7 +945,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .name{
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 600;
 	font-size: 28px;
@@ -953,7 +953,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .author{
-	color: #4189c3;
+	color: #00dbfa;
 	font-family: 'Exo 2';
 	font-weight: 500;
 	font-size: 20px;
@@ -961,7 +961,7 @@ a.app_link{
 }
 
 .carousel-inner .testimonials_list blockquote .job{
-	color: #4189c3;
+	color: #00dbfa;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
@@ -1203,7 +1203,7 @@ footer .copyright a{
 	width: 100%;
 	height: 120px;
 	z-index: 99;
-	background: url('../img/name.png');
+	background: url('../img/name3.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #0a0a1a;
@@ -1232,7 +1232,7 @@ footer .copyright a{
 	height: 80;
 	z-index: 99;
 	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name.png');
+	background: url('../img/name3.png');
 	background-repeat: no-repeat;
 	background-size: 400px 70px;
 	background-color: #0a0a1a;
@@ -1307,8 +1307,8 @@ footer .copyright a{
 }
 
 .button-menu{
-	border: 2px solid #4189c3;
-	color: #4189c3;
+	border: 2px solid #00dbfa;
+	color: #00dbfa;
 	background-color: #1f0d30;
 	position: center;
 	padding: 5px 10px;
@@ -1473,7 +1473,7 @@ footer .copyright a{
 .app_features2{
 	width: 100%;
 	padding: 40px 10px 20px 10px;
-	background-color: #4189c3;
+	background-color: #00dbfa;
 }
 
 
