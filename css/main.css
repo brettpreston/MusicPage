@@ -171,10 +171,18 @@ body{
 
 
 
+.overlay{
+position: fixed;
+left: 0px;
+top: 0px;
+}
 
 
-
-
+.overlay2{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	}
 
 
 
