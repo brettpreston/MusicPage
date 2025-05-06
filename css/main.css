@@ -204,8 +204,9 @@ header{
 	width: 100%;
 	height: 90px;
 	z-index: 99;
+/*
 	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name-blade.png');
+	background: url('../img/name-blade.png'); */
 	background-repeat: no-repeat;
 	background-position: 15% 5%;
 	padding-left: 50px;
@@ -213,8 +214,12 @@ header{
 }
 
 header .logo{
-	display: table-cell;
-	margin: 0px 0 0 0;
+	position: absolute;
+	left: 13%;
+	top: 5%;
+	font-size: 80;
+	font-family:  'blade';
+	text-align: left;
 }
 
 header .burger_icon{
@@ -401,7 +406,22 @@ a.app_store_btn{
 	font-size: 20px;
 }
 
-
+.glow {
+	color: #97e3fd;
+	text-align: center;
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+	-moz-animation: glow 2s ease-in-out infinite alternate;
+	animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #97e3fd, 0 0 20px #97e3fd;
+	}
+	to {
+	  text-shadow: 0 0 20px #97e3fd, 0 0 30px #40ccfc, 0 0 40px #40ccfc, 0 0 50px #40ccfc;
+	}
+  }
 
 .play_icon,
 .android_icon,
@@ -1224,13 +1244,14 @@ footer .copyright a{
 	width: 100%;
 	height: 120px;
 	z-index: 99;
-	background: url('../img/name3.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #0a0a1a;
 }
 
-
+header .logo{
+	text-align: center;
+}
 
 
 	.featured_on li{
@@ -1242,7 +1263,7 @@ footer .copyright a{
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 950px) {
 
 
 	/*		Header 		*/
@@ -1253,7 +1274,6 @@ footer .copyright a{
 	height: 80;
 	z-index: 99;
 	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name3.png');
 	background-repeat: no-repeat;
 	background-size: 400px 70px;
 	background-color: #0a0a1a;
@@ -1262,7 +1282,8 @@ footer .copyright a{
 	
 	
 	header .logo{
-		margin-right: 0;
+		margin-left: 25%;
+		text-align: center;
 	}
 
 	header .burger_icon{
