@@ -274,14 +274,14 @@ header nav li a{
 header nav li a:hover,
 header nav li a:focus{
 	text-decoration: none;
-	color: #b0c8f8!important;
+	color: #fff!important;
 }
 
 
 a:hover,
 a:focus{
 	text-decoration: none;
-	color: #b0c8f8!important;
+	color: #fff!important;
 }
 
 
