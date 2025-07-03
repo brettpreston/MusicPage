@@ -891,6 +891,25 @@ a.app_link{
 	border-radius: 15px;
 }
 
+.frame {
+	
+        border: 2px solid #97e3fd;
+        color: #97e3fd;
+        background-color: #1f0d30;
+		position: center;
+        padding: 0px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+		margin-left: auto;
+		margin-right: auto;
+        transition-duration: 0.4s;
+        cursor: pointer;
+		border-radius: 1px;
+		box-shadow: 0 9px #000000;
+  }
+
+
 .button-menu {
 }
 
