@@ -1367,6 +1367,12 @@ margin: auto;
 justify-content: center;
 }
 
+.tagline2{
+	font-size: 20;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
 .tagline{
 	text-align: justify;
 }
